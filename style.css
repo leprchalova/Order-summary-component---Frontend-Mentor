@@ -1,0 +1,120 @@
+body {
+  background-color: hsl(224, 100%, 94%);
+  background-image: url(images\pattern-background-desktop.png);
+  background-repeat: no-repeat;
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+}
+.card {
+  text-align: center;
+  align-items: center;
+  background-color: rgb(253, 253, 251);
+  margin: 5% auto;
+  width: 30%;
+  min-width: 26em;
+  border-radius: 1em;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 10px 10px 3px hsl(224, 30%, 63%);
+  -moz-box-shadow: 0px 10px 10px 3px hsl(224, 30%, 63%);
+  box-shadow: 0px 10px 10px 3px hsl(224, 30%, 63%);
+}
+
+h1 {
+  font-size: 22px;
+  color: hsl(223, 47%, 23%);
+  margin-top: 2em;
+}
+
+.card p {
+  margin: 1.2em 2em;
+  color: hsl(226, 11%, 63%);
+  font-size: 16px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.price {
+  background-color: hsl(225, 100%, 98%);
+  margin: auto;
+  margin-bottom: 2em;
+  padding: 1em 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  align-items: center;
+  border-radius: 0.75em;
+}
+
+.price img {
+  margin-left: 1em;
+  max-width: 48px;
+  max-height: 48px;
+}
+
+.price-mid-part p,
+.price-mid-part h4 {
+  margin: 0em;
+}
+
+.price a {
+  margin-left: 2.5em;
+  margin-right: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.price a:hover {
+  color: hsl(245, 71%, 60%);
+}
+
+button {
+  background-color: hsl(245, 76%, 53%);
+  color: white;
+  font-weight: bold;
+  width: 80%;
+  margin: auto;
+  padding: 4% 15%;
+  border: none;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 10px 10px 10px 5px hsl(225, 100%, 95%);
+  -moz-box-shadow: 10px 10px 10px 5px hsl(225, 100%, 95%);
+  box-shadow: 10px 10px 10px 5px hsl(225, 100%, 95%);
+}
+
+button:hover {
+  background-color: hsl(245, 71%, 60%);
+}
+
+.close-butt {
+  margin: 1.5em;
+}
+
+.close-butt a {
+  color: gray;
+  text-decoration: none;
+}
+
+.close-butt a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 455px) {
+  .card {
+    min-width: 22em;
+  }
+  body {
+    background-image: url(images\pattern-background-mobile.svg);
+  }
+}
